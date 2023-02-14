@@ -1,9 +1,19 @@
 apiVersion: v1
 entries:
+  HELM-CONFIGMAP:
+  - apiVersion: v2
+    created: "2023-02-14T08:58:20.473410263+02:00"
+    description: A Helm chart for Kubernetes for chartmuseum v2
+    digest: 074f01b3f0c43b57e5846e458f26efae847435c9312af88353fda96f3f91b9a9
+    name: HELM-CONFIGMAP
+    type: application
+    urls:
+    - HELM-CONFIGMAP-0.2.0.tgz
+    version: 0.2.0
   gitrepotest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-14T08:55:48.364655607+02:00"
+    created: "2023-02-14T08:58:20.474444829+02:00"
     description: A Helm chart for Kubernetes for github
     digest: b89092757bcba4424328861d25ec7ebb7e9c7aca52fb962fd155d625d369bcc1
     name: gitrepotest
@@ -11,4 +21,4 @@ entries:
     urls:
     - gitrepotest-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-14T08:55:48.363357196+02:00"
+generated: "2023-02-14T08:58:20.473135356+02:00"
